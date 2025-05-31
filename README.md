@@ -40,3 +40,13 @@ Une fois le projet cloné, tu peux démarrer l'ensemble des microservices et out
 ```bash
 ./start.sh
 ```
+
+### 3. **Accéder à la documentation Swagger**
+
+Une fois l'application lancée avec `./start.sh`, tu peux accéder à la documentation unifiée de l'API via Swagger en ouvrant ton navigateur à l'adresse suivante :
+
+[http://localhost:4000/api-docs](http://localhost:4000/api-docs)
+
+Cette interface te permet d'explorer, tester et comprendre tous les endpoints disponibles à travers les trois microservices (utilisateurs, posts et likes), avec leurs schémas de requêtes/réponses détaillés.
+
+> 📌 **Astuce** : si la page ne se charge pas, vérifie que le port `4000` est bien libre et que le service `api-gateway` (ou équivalent) est en cours d'exécution.
