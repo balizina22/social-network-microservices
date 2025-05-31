@@ -1,0 +1,20 @@
+# Ignorer les node_modules des services
+/user-service/node_modules/
+/post-service/node_modules/
+/like-service/node_modules/
+/swagger-unified/node_modules/
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers de configuration spécifiques à l'éditeur
+.vscode/
+.idea/
+
+# Ignorer les fichiers système (Windows, Mac, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers générés
+*.bak
+*.swp
